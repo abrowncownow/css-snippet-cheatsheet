@@ -25,13 +25,32 @@ footer {
     background-color: #5233ff;
     text-align: center;
 }
+
 footer h3 {
     font-size: 80%;
 }
 
 .card {
+    border: 3px #5233ff dotted;
+    border-radius: 10px;
     margin: 2%;
     padding: 5px;
+}
+
+.card h2 {
+    border: #5233ff dotted;
+    border-radius: 10px;
+    font-size: 100%;
+    position: absolute;
+    ;
+}
+
+.card p {
+    margin-top: 7px;
+    font-size: 80%;
+}
+.card pre {
+    background-color: beige;
 }
 
 
@@ -59,10 +78,6 @@ button:focus {
 @media screen and (max-width: 992px) {
     header {
         background: aqua;
-    }
-
-    .card {
-        width: 33%;
     }
 
     footer {
