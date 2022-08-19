@@ -1,0 +1,15 @@
+button:hover {
+    font-size: 110%;
+    box-shadow: 0 0 10px rgb(238, 162, 76) inset;
+}
+
+button:active {
+    font-size: 150%;
+    box-shadow: 0 0 10px aqua;
+}
+
+button:focus {
+    outline: none;
+    border-color: rgb(255, 151, 32);
+}
+
