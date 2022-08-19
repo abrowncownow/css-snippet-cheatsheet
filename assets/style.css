@@ -2,7 +2,9 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
 }
-
+p {
+  word-wrap: normal;  
+}
 header {
     background-color: #5233ff;
     color: #e3f2ff;
@@ -30,12 +32,19 @@ footer h3 {
     font-size: 80%;
 }
 
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
 .card {
     border: 3px #5233ff dotted;
     border-radius: 10px;
     margin: 2%;
     padding: 5px;
+    inline-size: 325px;
 }
+
 
 .card h2 {
     border: #5233ff dotted;
@@ -54,7 +63,7 @@ footer h3 {
 }
 
 
-
+}
 
 
 
@@ -91,7 +100,7 @@ button:focus {
     }
 
     .card {
-        width: 50%;
+        width: 75%;
     }
 
     footer {
