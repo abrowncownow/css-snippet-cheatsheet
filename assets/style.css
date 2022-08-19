@@ -36,8 +36,8 @@ footer h3 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
-.card {
+}
+.card{
     border: 3px #5233ff dotted;
     border-radius: 10px;
     margin: 2%;
@@ -61,11 +61,6 @@ footer h3 {
 .card pre {
     background-color: beige;
 }
-
-
-}
-
-
 
 button:hover {
     font-size: 110%;
