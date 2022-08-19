@@ -2,7 +2,9 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
 }
-
+p {
+  word-wrap: normal;  
+}
 header {
     background-color: #5233ff;
     color: #e3f2ff;
@@ -32,10 +34,14 @@ footer h3 {
 .card {
     margin: 2%;
     padding: 5px;
+    inline-size: 325px;
 }
 
-
-
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
 
 
@@ -62,7 +68,7 @@ button:focus {
     }
 
     .card {
-        width: 33%;
+        width: 50%;
     }
 
     footer {
@@ -76,7 +82,7 @@ button:focus {
     }
 
     .card {
-        width: 50%;
+        width: 75%;
     }
 
     footer {
